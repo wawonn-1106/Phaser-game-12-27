@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Phaser-game</title>
+    </head>
+    <body>
+        <div id="game-container">
+            <div id="dialog-window">
+                    <div id="dialog-name-container">
+                        <div id="dialog-name"></div> </div>
+                    <div id="dialog-text-container">
+                        <div id="dialog-text"></div> </div>
+                    <div id="dialog-input" style="display:none;">
+                        <input id="player-name-input" type="text" placeholder="名前を入力" />
+                        <button id="player-name-submit">OK</button>
+                    </div>
+            </div>
+        </div>
+        <script type="module" src="World.js"></script>
+    </body>
+</html>
